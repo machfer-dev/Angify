@@ -192,6 +192,30 @@ import { RouterModule } from '@angular/router';
       color: #a3a3a3;
       background: #f5f5f5;
     }
+
+    @media (max-width: 768px) {
+      .ov-title {
+        font-size: 24px;
+      }
+
+      .ov-subtitle {
+        font-size: 14px;
+      }
+
+      .ov-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .ov-card {
+        flex-direction: column;
+        gap: 12px;
+        padding: 16px;
+      }
+
+      .ov-card-head {
+        flex-wrap: wrap;
+      }
+    }
   `]
 })
 export class OverviewComponent {}

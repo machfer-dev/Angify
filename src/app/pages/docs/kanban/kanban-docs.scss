@@ -560,3 +560,101 @@
   border-top: 1px solid #f0f0f0;
   padding-top: 12px;
 }
+
+/* Mobile responsive */
+@media (max-width: 768px) {
+  .doc-layout {
+    flex-direction: column;
+  }
+
+  .doc-toc {
+    display: none;
+  }
+
+  .doc-title {
+    font-size: 24px;
+  }
+
+  .doc-subtitle {
+    font-size: 14px;
+  }
+
+  .doc-h2 {
+    font-size: 18px;
+  }
+
+  .doc-h3 {
+    font-size: 14px;
+  }
+
+  .doc-section {
+    margin-bottom: 32px;
+    padding-bottom: 32px;
+  }
+
+  .doc-table-wrap {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .doc-table {
+    min-width: 500px;
+  }
+
+  .doc-code {
+    padding: 12px 14px;
+    font-size: 11px;
+  }
+
+  .doc-views-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .demo-controls {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .demo-view-nav {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .demo-view-btn {
+    padding: 6px 12px;
+    font-size: 12px;
+  }
+
+  .demo-board-wrap {
+    padding: 10px;
+  }
+
+  .api-row-header {
+    flex-wrap: wrap;
+    gap: 8px;
+    padding: 10px 12px;
+  }
+
+  .api-row-left {
+    flex-wrap: wrap;
+    gap: 6px;
+  }
+
+  .api-name {
+    font-size: 12px;
+  }
+
+  .api-row-body {
+    padding: 0 12px 12px;
+    font-size: 12px;
+  }
+
+  .changelog-header {
+    flex-wrap: wrap;
+  }
+
+  .faq-question {
+    font-size: 13px;
+    padding: 12px 14px;
+  }
+}

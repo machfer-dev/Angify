@@ -258,3 +258,47 @@
     font-weight: 600;
     color: #475569;
 }
+
+/* Mobile responsive */
+@media (max-width: 767px) {
+    .hero-glow {
+        width: 400px;
+        height: 300px;
+    }
+
+    .hero-grid {
+        background-size: 40px 40px;
+    }
+
+    .cta-glow {
+        width: 300px;
+        height: 200px;
+    }
+
+    .demo-view-nav {
+        flex-wrap: wrap;
+    }
+
+    .demo-view-btn {
+        padding: 6px 12px;
+        font-size: 12px;
+    }
+
+    .demo-board-wrap {
+        padding: 12px;
+    }
+
+    .demo-install {
+        font-size: 11px;
+        padding: 6px 14px;
+        word-break: break-all;
+    }
+
+    .package-card {
+        padding: 1.25rem;
+    }
+
+    .benefit-card {
+        padding: 1.25rem;
+    }
+}
